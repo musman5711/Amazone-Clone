@@ -1,0 +1,486 @@
+* {
+    margin: 0%;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/**box1**/
+.nav-logo {
+    height: 50px;
+    width: 110px;
+}
+
+#logo {
+    background-image: url("image/logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 110px;
+}
+
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+/**box2**/
+#add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 18px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+#add-second {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+/**box3**/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 580px;
+    height: 40px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#search-select {
+    width: 50px;
+    background-color: #e6e6e6;
+    color: #0f1111;
+    align-items: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#search-inp {
+    width: 100%;
+    font-size: 0.85rem;
+    border: none;
+
+}
+
+#search-icon {
+    width: 50px;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+
+.nav-search:hover {
+    border: 2px solid #febd68;
+}
+
+/**box5**/
+.nav-language {
+    width: 73px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#lan-select {
+    background-color: #0f1111;
+    color: #ffffff;
+    border: none;
+    font-weight: bolder;
+}
+
+
+#first {
+    font-size: 0.8rem;
+}
+
+#second {
+    font-size: 1.2rem;
+}
+
+/**box7**/
+.nav-cart i {
+    font-size: 2rem;
+}
+
+.nav-cart {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* panel */
+.panel {
+    height: 45px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    width: 60px;
+    margin-left: 20px;
+}
+
+.panel-all a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.panel-opt {
+    width: 100%;
+
+}
+
+.panel-opt a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 15px;
+
+}
+
+/* hero */
+.hero-sec {
+    height: 500px;
+    background-image: url("image/hero.jpg");
+    background-size: cover;
+}
+
+/* boxes */
+.shop-boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s-box {
+    margin-top: 250px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+
+.s-box h2 {
+    padding-left: 15px;
+}
+
+
+.image {
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.image2 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.boximg-1 {
+    background-image: url("image/box1.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 130px;
+}
+
+.boximg-2 {
+    background-image: url("image/box1.2.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 130px;
+}
+
+.boximg-3 {
+    background-image: url("image/box1.4.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 130px;
+}
+
+.boximg-4 {
+    background-image: url("image/box1.3.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 130px;
+}
+
+.ancher {
+    display: flex;
+    align-items: end;
+}
+
+.ancher a {
+    text-decoration: none;
+    color: #0f1111;
+    font-size: 0.9rem;
+    margin-bottom: 0%;
+    align-items: end;
+}
+
+
+.see a {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 15px;
+    color: #007185;
+}
+
+
+.home1 {
+    background-image: url("image/home1.jpg");
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.home2 {
+    background-image: url("image/home2.jpg");
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.home3 {
+    background-image: url("image/home3.jpg");
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.home4 {
+    background-image: url("image/home4.jpg");
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.fashion1 {
+    background-image: url("image/f1.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 130px;
+}
+
+.fashion2 {
+    background-image: url("image/f2.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 130px;
+}
+
+.fashion3 {
+    background-image: url("image/f3.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 130px;
+}
+
+.fashion4 {
+    background-image: url("image/f4.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 130px;
+}
+
+.arr1 {
+    background-image: url("image/arr1.jpg");
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.arr2 {
+    background-image: url("image/arr2.jpg");
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+.arr3 {
+    background-image: url("image/arr3.jpg");
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+.arr4 {
+    background-image: url("image/arr4.jpg");
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+body {
+    background-color: rgb(169, 89, 89);
+}
+
+
+.shop-boxes2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxes2 {
+    margin-top: 15px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+.boxes2 h2 {
+    padding-left: 15px;
+}
+.box1-1 {
+   display: flex;
+   justify-content: space-evenly;
+   margin: 7px;
+}
+.box1-2 {
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+
+}
+.image3 {
+    height: 200px;
+    width: 270px;
+    background-image: url("image/k1.jpg");
+    background-size: cover;
+}
+.img1 {
+    height: 80px;
+    width: 80px;
+    background-image: url("image/k2.jpg");
+    background-size: cover;
+}
+.img2 {
+    height: 80px;
+    width: 80px;
+    background-image: url("image/k3.jpg");
+    background-size: cover;
+}.img3 {
+    height: 80px;
+    width: 80px;
+    background-image: url("image/k4.jpg");
+    background-size: cover;
+}
+
+.r1 {
+    background-image: url("image/r1.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 130px;
+}
+.r2 {
+    background-image: url("image/r2.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 130px;
+}
+.r3 {
+    background-image: url("image/r3.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 130px;
+}
+.r4 {
+    background-image: url("image/r4.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 130px;
+}
+
+.image4 {
+    background-image: url("image/g1.jpg");
+    background-size: cover;
+    height: 320px;
+    width: 90%;
+}
+.game {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image5 {
+    background-image: url("image/t1.jpg");
+    background-size: cover;
+    width: 90%;
+    height: 300px;
+}
+
+.shopfour {
+    margin-top: 590px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fourhead {
+    height: 270px;
+    width: 96.5%;
+    background-color: white;
+}
+.fourhead h2 {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+.imagefour {
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagefour div {
+    height: 200px;
+    width: 13%;
+    background-color: #febd68;
+}
+.four1 {
+    background-image: url("image/m1.jpg");
+    background-size: cover;
+}
+.four2 {
+    background-image: url("image/m2.jpg");
+    background-size: cover;
+}
+.four3 {
+    background-image: url("image/m3.jpg");
+    background-size: cover;
+}
+.four4 {
+    background-image: url("image/m4.jpg");
+    background-size: cover;
+}
+.four5 {
+    background-image: url("image/m5.jpg");
+    background-size: cover;
+}
+.four6 {
+    background-image: url("image/m6.jpg");
+    background-size: cover;
+}
+.four7 {
+    background-image: url("image/m7.jpg");
+    background-size: cover;
+}
